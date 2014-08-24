@@ -16,4 +16,7 @@
 	return View::make('hello');
 });*/
 
+
+Route::resource('/user', 'UserController');
 Route::controller('/', 'HomeController');
+
