@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title') Login to @stop
+@section('title') Login @stop
 
 @section('content')
 
@@ -12,7 +12,7 @@
     @endforeach
     @endif
 
-    <h1><i class='fa fa-lock'></i> Login</h1>
+    <h1><i class='fa fa-lock'></i> Please Login</h1>
 
     {{ Form::open(['role' => 'form']) }}
 
