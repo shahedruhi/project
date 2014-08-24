@@ -13,7 +13,7 @@
 
             <thead>
             <tr>
-                <th>Name</th>
+                
                 <th>Username</th>
                 <th>Email</th>
                 <th>Date/Time Added</th>
